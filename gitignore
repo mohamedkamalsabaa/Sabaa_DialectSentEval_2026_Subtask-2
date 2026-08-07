@@ -1,0 +1,21 @@
+# The MA'AKS corpus is distributed by the shared task organisers.
+# Do not commit it: see data/README.md.
+data/*.xlsx
+data/*.csv
+
+# Model checkpoints and generated submissions
+*.bin
+*.safetensors
+arat5v2/
+arabart/
+predictions.xlsx
+predictions.zip
+
+# Notebook noise
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Credentials — never commit these
+.env
+*.token

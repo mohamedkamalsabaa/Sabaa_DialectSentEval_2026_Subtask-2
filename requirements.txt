@@ -1,0 +1,10 @@
+# Pinned to the versions the reported results were produced with.
+transformers==4.44.0
+datasets
+sacrebleu
+sentencepiece
+accelerate
+openpyxl
+pandas
+numpy
+torch
