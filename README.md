@@ -42,7 +42,7 @@ the time, but the direction it aimed at was only right about 80% of the time.
 |---|---|---|---|
 | `01_development.ipynb` | Train + Val | dev `predictions.zip` and scores | ~2.5 h |
 | `02_final_evaluation.ipynb` | Train + Test | test `predictions.zip` | ~2.5 h |
-| `03_supplementary_analysis.ipynb` | polarity-inference analysis | ~2 min |
+| `03_supplementary_analysis.ipynb` | | polarity-inference analysis | ~2 min |
 
 Each notebook is self-contained and runs top to bottom on Kaggle with **GPU
 T4 ×2** and **internet enabled**. The `find_file` helper locates the
